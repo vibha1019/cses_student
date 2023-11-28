@@ -1,7 +1,4 @@
----
-layout: default
-title: Student Blog
----
+
 
 # All about Vibha!
 Learn about me here!
