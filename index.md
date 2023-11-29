@@ -9,7 +9,7 @@ Learn about me here!
 3. [Pictures](#pictures)
 
 
-# ** Overview **
+# **Overview**
 My name is Vibha, and I am 15 years old. I have a little sister, and am a freshman in high school.
 
 # Hobbies
