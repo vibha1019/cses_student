@@ -1,6 +1,9 @@
 <h1 style="text-align: center;">All About Vibha!</h1>
 
-*Learn about me here!*
+<div style="text-align: center;">
+  <p><strong>Learn about me here!</strong></p>
+</div>
+
 
 # **Table of Contents**
 1. [Overview](#overview)
