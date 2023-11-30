@@ -1,3 +1,8 @@
+
+<div style="background-color: #B7F7F7; padding: 20px;">
+  <p><strong>Learn about me here!</strong></p>
+</div>
+
 <h1 style="text-align: center;">All About Vibha!</h1>
 
 <div style="text-align: center;">
