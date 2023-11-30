@@ -1,8 +1,11 @@
 
-<div style="background-color: #B7F7F7; text-align: center; padding: 20px;">
-  <h1>All About Vibha!</h1>
-  <p><strong>Learn about me here!</strong></p>
-</div>
+<body style="background-color: #B7F7F7;">
+  <div style="text-align: center; padding: 20px;">
+    <h1>All About Vibha!</h1>
+    <p><strong>Learn about me here!</strong></p>
+  </div>
+</body>
+
 
 
 # **Table of Contents**
