@@ -1,5 +1,5 @@
+<h1 style="text-align: center;">All About Vibha!</h1>
 
-# **All about Vibha!**
 *Learn about me here!*
 
 # **Table of Contents**
