@@ -5,13 +5,6 @@
 </div>
 
 
-<h1 style="text-align: center;">All About Vibha!</h1>
-
-<div style="text-align: center;">
-  <p><strong>Learn about me here!</strong></p>
-</div>
-
-
 # **Table of Contents**
 1. [Overview](#overview)
 2. [Hobbies](#hobbies)
