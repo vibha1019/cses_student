@@ -25,6 +25,15 @@
           <p style="color: #000000; text-align: left;">
             My name is Vibha, and I am 15 years old. I have a little sister and am a freshman in high school. I enjoy baking, reading, and swimming. In my free time, I like listening to music, watching Netflix, and going to the beach. My favorite color is purple, and my favorite artist is Ariana Grande. My favorite TV shows are Queen's Gambit and Manifest.
           </p>
+          <h1>Favorites!</h1>     
+          <p style="color: #000000; text-align: left;">
+            Color- Purple
+            Artist- Ariana Grande
+            TV Shows- Manifest
+            Toothpaste Brand- Colgate
+            Gum Flavor- Mint
+            Shape- Circle
+          </p> 
         </div>
       </div>
     </div>
