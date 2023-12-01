@@ -27,14 +27,14 @@
           </p>
           <h1>Favorites!</h1>     
           <p style="color: #000000; text-align: left;">
-          <ol>
+          <ul style="list-style-position: outside; padding-left: 20px; margin-top: 0; color: #000000;"> <!-- Added color property to set text color to black -->
             <li>Color: Purple</li>
             <li>Artist: Ariana Grande</li>
             <li>TV Shows: Manifest</li>
             <li>Toothpaste Brand: Colgate</li>
             <li>Gum Flavor: Mint</li>
             <li>Shape: Circle</li>
-          </ol>
+          </ul>
           </p>
         </div>
       </div>
