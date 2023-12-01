@@ -33,7 +33,7 @@
             <li>TV Shows: Manifest</li>
             <li>Toothpaste Brand: Colgate</li>
             <li>Gum Flavor: Mint</li>
-            <li>Shape: Circle</li>
+            <li>Shape: Squircle</li>
           </ul>
           </p>
         </div>
