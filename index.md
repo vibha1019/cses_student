@@ -27,12 +27,12 @@
           </p>
           <h1>Favorites!</h1>     
           <p style="color: #000000; text-align: left;">
-            Color- Purple
-            Artist- Ariana Grande
-            TV Shows- Manifest
-            Toothpaste Brand- Colgate
-            Gum Flavor- Mint
-            Shape- Circle
+            1. Color: Purple
+            2. Artist: Ariana Grande
+            3. TV Shows: Manifest
+            4. Toothpaste Brand: Colgate
+            5. Gum Flavor: Mint
+            6. Shape: Circle
           </p> 
         </div>
       </div>
