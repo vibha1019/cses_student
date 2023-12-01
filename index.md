@@ -1,3 +1,4 @@
+<div style="background-color: #000000;" padding: 20px;">
 <body style="background-color: #FFA69E;">
 <div style="text-align: center; padding: 20px; background-color: #FFA69E; border-radius: 10px;">
     <h1 style="color: #FFFFFF;">All About Vibha!</h1>
