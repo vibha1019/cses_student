@@ -1,3 +1,45 @@
+<style>
+  body {
+    display: flex;
+  }
+
+  #sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  #content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  #sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #sidebar a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div id="sidebar">
+  <h2>Sidebar</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#compsci">CompSci</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#help">Help</a></li>
+    <li><a href="https://github.com/vibha1019/cses_student" target="_blank">View On GitHub</a></li>
+  </ul>
+</div>
+
+
+
+
+
 <body style="background-color: #FFA69E;">
   <div style="text-align: center; padding: 20px; background-color: #FFA69E;">
     <h1 style="color: #FFFFFF;">All About Vibha!</h1>
