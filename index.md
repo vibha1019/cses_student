@@ -30,11 +30,10 @@
     <p style="color: #000000; text-align: left;">
         My name is Vibha, and I am 15 years old. I have a little sister and am a freshman in high school. I enjoy baking, reading, and swimming. In my free time, I like listening to music, watching Netflix, and going to the beach. My favorite color is purple, and my favorite artist is Ariana Grande. My favorite TV shows are Queen's Gambit and Manifest.
     </p>
-    <h3>Favorite Foods</h3>
-    <ul>
+ <h3 style="font-size: 24px;">Favorite Foods</h3>
+    <ul style="list-style-position: outside; padding-left: 20px;">
       <li>Burritos</li>
       <li>Brownies</li>
-      <li>Maggi</li>
     </ul>
   </div>
 </div>
