@@ -3,12 +3,10 @@ toc: true
 comments: false
 layout: post
 title: Vibha's Daily Plan 
-description: What I want to Learn this course!
+description: What I want to learn during this course!
 type: plans
 courses: { compsci: {week: 0} }
 ---
-
-### PBL Unit 1 / Week 0
 
 ## I want to learn how to...
 
