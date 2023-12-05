@@ -5,7 +5,7 @@ layout: post
 title: Vibha's Daily Plan 
 description: What I want to learn during this course!
 type: plans
-courses: { compsci: {week: 0} }
+courses: { compsci: {week: 3} }
 ---
 
 ## I want to learn how to...
