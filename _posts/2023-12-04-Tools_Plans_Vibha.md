@@ -8,13 +8,13 @@ type: plans
 courses: { compsci: {week: 3} }
 ---
 
-## I want to learn how to...
+## Plan of Week 12/4/23- 12/8/23
 
-Present
-- Make a videogame
-- Make a usable website for an actual business
-- Learn more about styling and advanced code
+Monday: Make plans for Week 3
+Tuesday: Research and add to hacks post
+Wednesday: Explore new styling and themes for the posts
+Thursday: Continue progress from Wednesday
+Friday: Add post to Tangible, reviewing the week
 
-Future... 
-- Use code to solve real world problems
+
   
