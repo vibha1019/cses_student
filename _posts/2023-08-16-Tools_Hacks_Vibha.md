@@ -15,9 +15,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    background-color: #D9D9D6;
-    padding: 10px; /* Add some padding for better aesthetics */
-    border-radius: 10px; /* Optional: Add rounded corners to the headings */
+    background-color: #b0c1d2;
+    padding: 10px; 
+    border-radius: 10px; 
 }
 </style>
 # Rounded Corners
