@@ -3,6 +3,7 @@ toc: true
 comments: true
 layout: post
 title: Vibha's Hacks
+description: Learn hacks here!
 courses: { compsci: {week: 3} }
 type: hacks
 ---
