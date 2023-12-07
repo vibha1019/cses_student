@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    background-color: #1A658F;
+    background-color: #D9D9D6;
     padding: 10px; /* Add some padding for better aesthetics */
     border-radius: 10px; /* Optional: Add rounded corners to the headings */
 }
