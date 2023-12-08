@@ -8,16 +8,13 @@ type: tangibles
 courses: { compsci: {week: 1} }
 ---
 
-### Summary of Accomplishments
-> Update Blog to contain all hacks.  
-- Reviewed with Pair.  Discuss/Show evidence.
-- Discuss laptop, cloud computer.
-- Discuss tools setup and troubles.
-- Show personal blog / home page.
-- Show how you are maintaining notes, answering hacks, and showing tangibles.  
-- How have you learned Markdown, HTML, CSS, JavaScript.
-- Show Jupyter Notebooks and how you have added and organized them in the blog.
-- Show evidence of using Slack Account, show app installed on Laptop and/or phone.  Show awared of #annoncements, #general, #coding.
-- Run make commands to build and test blog locally, before pushing changes to GitHub pages.
-- Discuss GitHub Account, show ability to push/pull changes from VSCode.
-- Discuss development on Themes, show how you plan to organized lab notebook.
+### Summary of Accomplishments- 12/8/23 
+## In This Class
+- I helped my friend troubleshoot, because she was really struggling
+- Made a really cool All About Me page, and learned about markdown syntax
+- Used HTML and CSS for good aesthetics and visuals in my page
+- Learned how to use Github effectively
+## My Personal Life
+- Made new friends in PE
+- Succesfully played at a piano recital
+- My friend Tiffany got a new placement in her band
