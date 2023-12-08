@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: Sample Review Ticket
-description: Example Review Ticket!!! This will help us communicate results.
+title: Vibha's Review Ticket
+description: My Review Ticket
 type: tangibles
 courses: { compsci: {week: 1} }
 ---
