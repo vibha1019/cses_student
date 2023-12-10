@@ -8,6 +8,48 @@ type: tangibles
 courses: { compsci: {week: 1} }
 ---
 
+/* CSS Reset for Basic Styling */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Heading Styling */
+h1 {
+    color: #007bff;
+}
+
+h2 {
+    color: #009688;
+}
+
+h3 {
+    color: #e91e63;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 #Hamsters!
 
 Hamsters are furry, small, rodents that are often energetic. They make great first time pets, as they are low maintenance and small in size!
