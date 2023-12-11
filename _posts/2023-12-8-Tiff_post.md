@@ -39,5 +39,5 @@ hamsters can be dangerous when provoked
 <img src="/Users/tiffany/vscode/cses_student/_posts/image-3.png" alt="hammstercry">
 hamsters can be provoked easily and get sad often
 
-<img src="/Users/tiffany/vscode/cses_student/_posts/image-5.png" alt="hamsterpiano">
+<img src="/Users/tiffany/vscode/cses_student/582134665_b56ff7028e.jpg" alt="hamsterpiano">
 hamsters have a natural love for music
