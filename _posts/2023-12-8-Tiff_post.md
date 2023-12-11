@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 </style>
 # Hamsters!
 
-Hamsters are furry, small, rodents that are often energetic. They make great first time pets, as they are low maintenance and small in size!
+<li>Hamsters are furry, small, rodents that are often energetic. They make great first time pets, as they are low maintenance and small in size!</li>
 
 ## Pros
 <li>The pros of owning a hamster is plentiful. They provide emotional support and help with the release of serotonin. Although they look scary, they are actually harmless, if you keep them in a locked glass box.</li>
@@ -33,11 +33,20 @@ Hamsters are furry, small, rodents that are often energetic. They make great fir
 ## Diet 
 <li>Hamsters live in isolation, so they eat what is available to them. In many cases it is their family/children if desperate for proper nutrition. However, hamsters do enjoy cheese balls and canned corn. They enjoy the gamer diet.</li>
 
-<img src="/Users/tiffany/vscode/cses_student/_posts/image-1.png" alt="hamsterknife">
+## pictures
+
+![hamsterknife](https://i1.sndcdn.com/avatars-td0fllAZlyJohAGJ-DqqGzQ-t240x240.jpg)
+
 hamsters can be dangerous when provoked
 
-<img src="/Users/tiffany/vscode/cses_student/_posts/image-3.png" alt="hammstercry">
+
+
+![hamsterpiano](https://i.pinimg.com/564x/37/c8/6f/37c86fecf6926e4c25155fcb8d9fbe9c.jpg)
+
 hamsters can be provoked easily and get sad often
 
+
+
 ![hamsterpiano](https://i.kym-cdn.com/entries/icons/facebook/000/000/488/582134665_b56ff7028e.jpg)
+
 hamsters have a natural love for music
