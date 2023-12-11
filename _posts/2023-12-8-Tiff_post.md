@@ -33,7 +33,7 @@ Hamsters are furry, small, rodents that are often energetic. They make great fir
 ## Diet 
 <li>Hamsters live in isolation, so they eat what is available to them. In many cases it is their family/children if desperate for proper nutrition. However, hamsters do enjoy cheese balls and canned corn. They enjoy the gamer diet.</li>
 
-![hamster](image-2.png)
+![hamster](image-1.png)
 hamsters can be dangerous when provoked
 
 ![hammstersad](image-3.png)
