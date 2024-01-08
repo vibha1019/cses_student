@@ -45,16 +45,16 @@ courses: { compsci: {week: 2} }
        /* Styles for specific button types */
        .calculator-number {
            background-color: #C8A2C8; /* Lilac for numbers */
-           color: beige;
+           color: white;
        }
        .calculator-operation {
            background-color: #ADD8E6; /* Light blue for operations */
-           color: beige;
+           color: white;
        }
        .calculator-clear,
        .calculator-equals {
            background-color: #FFB6C1; /* Light pink for clear and equals buttons */
-           color: beige;
+           color: white;
        }
 </style>
 
