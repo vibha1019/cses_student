@@ -8,16 +8,6 @@ type: tangibles
 courses: { compsci: {week: 2} }
 ---
 
----
-comments: true
-layout: post
-title: Calculator IPYNB
-description: Grab Calculator Code and place in IPYNB
-type: hacks
-courses: { compsci: {week: 2} }
----
-
-
 <html lang="en">
 <head>
    <meta charset="UTF-8">
@@ -54,11 +44,11 @@ courses: { compsci: {week: 2} }
        }
        /* Styles for specific button types */
        .calculator-number {
-           background-color: #800000; /* Green for numbers */
+           background-color: #C8A2C8; /* Lilac for numbers */
            color: beige;
        }
        .calculator-operation {
-           background-color: #FFA500; /* Orange for operations */
+           background-color: #ADD8E6; /* Light blue for operations */
            color: beige;
        }
        .calculator-clear,
