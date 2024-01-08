@@ -53,8 +53,8 @@ courses: { compsci: {week: 2} }
        }
        .calculator-clear,
        .calculator-equals {
-           background-color: #00008B; /* Blue for clear and equals buttons */
-         color: beige;
+           background-color: #90EE90; /* Blue for clear and equals buttons */
+           color: beige;
        }
 </style>
 
