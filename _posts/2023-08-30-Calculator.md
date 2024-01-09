@@ -21,6 +21,8 @@ courses: { compsci: {week: 2} }
            align-items: center;
            height: 100vh;
            margin: 0;
+           background-color: black; /* Set the background color to black */
+           color: red; 
        }
        #calculator-container {
            display: grid;
