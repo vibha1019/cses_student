@@ -22,7 +22,7 @@ courses: { compsci: {week: 2} }
            height: 100vh;
            margin: 0;
            background-color: black; /* Set the background color to black */
-           color: red; 
+           color: #C8A2C8; 
        }
        #calculator-container {
            display: grid;
