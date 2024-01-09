@@ -55,7 +55,7 @@ courses: { compsci: {week: 2} }
        }
        .calculator-clear,
        .calculator-equals {
-           background-color: #FFB6C1; /* Light pink for clear and equals buttons */
+           background-color: #AA336A; /* Light pink for clear and equals buttons */
            color: white;
        }
 </style>
