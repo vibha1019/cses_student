@@ -42,7 +42,7 @@ courses: { compsci: {week: 2} }
            cursor: pointer;
            border: 1px solid #ccc;
            background-color: #f0f0f0; /* Default background color */
-           color: #333; /* Default text color */
+           color: black; /* Default text color */
        }
        /* Styles for specific button types */
        .calculator-number {
