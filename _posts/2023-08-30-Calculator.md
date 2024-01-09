@@ -50,7 +50,7 @@ courses: { compsci: {week: 2} }
            color: white;
        }
        .calculator-operation {
-           background-color: #ADD8E6; /* Light blue for operations */
+           background-color: #4169e1; /* Light blue for operations */
            color: white;
        }
        .calculator-clear,
