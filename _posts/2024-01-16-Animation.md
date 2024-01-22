@@ -3,7 +3,7 @@
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="dogSprite" src="Fumiko.png">  // change sprite here
+            <img id="Cat" src="C:\Users\vibha\Documents\GitHub\cses_student\images\cat_idle.png">  // change sprite here
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
             <input type="radio" name="animation" id="idle" checked>
@@ -23,7 +23,7 @@
         const ctx = canvas.getContext('2d');
         const SPRITE_WIDTH = 160;  // matches sprite pixel width
         const SPRITE_HEIGHT = 144; // matches sprite pixel height
-        const FRAME_LIMIT = 48;  // matches number of frames per sprite row, this code assume each row is same
+        const FRAME_LIMIT = 3;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
         canvas.width = SPRITE_WIDTH * SCALE_FACTOR;
