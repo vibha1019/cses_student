@@ -1,11 +1,9 @@
-%%html
-
 <body>
     <div>
         <canvas id="spriteContainer"> <!-- Within the base div is a canvas. An HTML canvas is used only for graphics. It allows the user to access some basic functions related to the image created on the canvas (including animation) -->
-            <img id="dogSprite" src="images/cat_idle.png">  // change sprite here
+            <img id="dogSprite" src="{{site.baseurl}}/images/cat_idle.png">  <!-- change sprite here -->
         </canvas>
-        <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animaiton works -->
+        <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animation works -->
             <input type="radio" name="animation" id="idle" checked>
             <label for="idle">Idle</label><br>
             <input type="radio" name="animation" id="barking">
@@ -55,12 +53,18 @@
                 );
             }
 
-            // update frameX of object
+            // update frameX and frameY of object
             update() {
                 if (this.frameX < this.maxFrame) {
                     this.frameX++;
                 } else {
                     this.frameX = 0;
+                    // Reset frameY to 0 when frameX reaches maxFrame
+                    if (this.frameY < 2) {  // Assuming 3 actions (0-indexed)
+                        this.frameY++;
+                    } else {
+                        this.frameY = 0;
+                    }
                 }
             }
         }
@@ -68,7 +72,7 @@
         // dog object
         const dog = new Dog();
 
-        // update frameY of dog object, action from idle, bark, walk radio control
+        // update frameY of dog object based on radio button selection
         const controls = document.getElementById('controls');
         controls.addEventListener('click', function (event) {
             if (event.target.tagName === 'INPUT') {
@@ -97,7 +101,7 @@
             // Draws the current frame of the sprite.
             dog.draw(ctx);
 
-            // Updates the `frameX` property to prepare for the next frame in the sprite sheet.
+            // Updates the `frameX` and `frameY` properties to prepare for the next frame in the sprite sheet.
             dog.update();
 
             // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
