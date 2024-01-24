@@ -109,7 +109,7 @@
             setTimeout(function () {
         // Use `requestAnimationFrame` to continue the animation loop
         requestAnimationFrame(animate);
-    }, 500 / 10); // Adjust the divisor to set the desired frames per second
+    }, 500 / 1); // Adjust the divisor to set the desired frames per second
 }
 
 // run 1st animate
