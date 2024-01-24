@@ -19,8 +19,8 @@
     window.addEventListener('load', function () {
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
-        const SPRITE_WIDTH = 48;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 64; // matches sprite pixel height
+        const SPRITE_WIDTH = 29;  // matches sprite pixel width
+        const SPRITE_HEIGHT = 41; // matches sprite pixel height
         const FRAME_LIMIT = 4;  // matches number of frames per sprite row, this code assume each row is same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
@@ -101,15 +101,18 @@
             // Draws the current frame of the sprite.
             dog.draw(ctx);
 
-            // Updates the `frameX` and `frameY` properties to prepare for the next frame in the sprite sheet.
+            // Updates the `frameX` property to prepare for the next frame in the sprite sheet.
             dog.update();
 
             // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
             // ensuring smooth visuals.
-            requestAnimationFrame(animate);
-        }
+            setTimeout(function () {
+        // Use `requestAnimationFrame` to continue the animation loop
+        requestAnimationFrame(animate);
+    }, 500 / 10); // Adjust the divisor to set the desired frames per second
+}
 
-        // run 1st animate
-        animate();
+// run 1st animate
+animate();
     });
 </script>
