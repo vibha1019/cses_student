@@ -19,8 +19,8 @@
     window.addEventListener('load', function () {
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
-        const SPRITE_WIDTH = 90;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 90; // matches sprite pixel height
+        const SPRITE_WIDTH = 62;  // matches sprite pixel width
+        const SPRITE_HEIGHT = 96; // matches sprite pixel height
         const FRAME_LIMIT = 2;  // matches number of frames per sprite row, this code assumes each row is the same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
@@ -30,14 +30,14 @@
         class Dog {
             constructor() {
                 this.image = document.getElementById("dogSprite");
-                this.x = 60;
-                this.y = 10;
+                this.x = 0;
+                this.y = 0;
                 this.minFrame = 0;
                 this.maxFrame = FRAME_LIMIT;
                 this.frameX = 0;
                 this.frameY = 0;
                 this.lastRender = 0;  // To control frame rate
-                this.frameInterval = 1000 / 15;  // Adjust this value for the desired frames per second
+                //this.frameInterval = 1000 / 15;  // Adjust this value for the desired frames per second
             }
 
             // draw dog object
@@ -54,29 +54,39 @@
                     canvas.height
                 );
             }
-
-            // update frameX and frameY of object
+                        // update frameX of object
             update() {
-                const now = performance.now();  // Get current time
-                const elapsed = now - this.lastRender;
-
-                if (elapsed > this.frameInterval) {
-                    this.lastRender = now;
-
-                    if (this.frameX < this.maxFrame) {
-                        this.frameX++;
-                    } else {
-                        this.frameX = 0;
-                        // Reset frameY to 0 when frameX reaches maxFrame
-                        if (this.frameY < 2) {  // Assuming 3 actions (0-indexed)
-                            this.frameY++;
-                        } else {
-                            this.frameY = 0;
-                        }
-                    }
+                if (this.frameX < this.maxFrame) {
+                    this.frameX++;
+                } else {
+                    this.frameX = 0;
                 }
             }
         }
+
+
+            // update frameX and frameY of object
+        //     update() {
+        //         const now = performance.now();  // Get current time
+        //         const elapsed = now - this.lastRender;
+
+        //         if (elapsed > this.frameInterval) {
+        //             this.lastRender = now;
+
+        //             if (this.frameX < this.maxFrame) {
+        //                 this.frameX++;
+        //             } else {
+        //                 this.frameX = 0;
+        //                 // Reset frameY to 0 when frameX reaches maxFrame
+        //                 if (this.frameY < 2) {  // Assuming 3 actions (0-indexed)
+        //                     this.frameY++;
+        //                 } else {
+        //                     this.frameY = 0;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
 
         // dog object
         const dog = new Dog();
@@ -102,7 +112,6 @@
             }
         });
 
-        // Animation recursive control function
         function animate() {
             // Clears the canvas to remove the previous frame.
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -115,10 +124,13 @@
 
             // Uses `requestAnimationFrame` to synchronize the animation loop with the display's refresh rate,
             // ensuring smooth visuals.
-            requestAnimationFrame(animate);
-        }
+            setTimeout(function () {
+        // Use `requestAnimationFrame` to continue the animation loop
+        requestAnimationFrame(animate);
+    }, 500 / 10); // Adjust the divisor to set the desired frames per second
+}
 
-        // run 1st animate
-        animate();
+// run 1st animate
+animate();
     });
 </script>
