@@ -37,7 +37,7 @@
                 this.frameX = 0;
                 this.frameY = 0;
                 this.lastRender = 0;  // To control frame rate
-                this.frameInterval = 1000 / 10;  // Adjust this value for the desired frames per second
+                this.frameInterval = 1000 / 15;  // Adjust this value for the desired frames per second
             }
 
             // draw dog object
