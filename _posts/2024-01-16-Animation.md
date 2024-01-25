@@ -31,7 +31,7 @@
             constructor() {
                 this.image = document.getElementById("dogSprite");
                 this.x = 30;
-                this.y = 25;
+                this.y = 24;
                 this.minFrame = 0;
                 this.maxFrame = FRAME_LIMIT;
                 this.frameX = 0;
