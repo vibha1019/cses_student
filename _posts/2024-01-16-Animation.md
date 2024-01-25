@@ -5,11 +5,11 @@
         </canvas>
         <div id="controls"> <!--basic radio buttons which can be used to check whether each individual animation works -->
             <input type="radio" name="animation" id="idle" checked>
-            <label for="idle">Idle</label><br>
+            <label for="idle">Backwards</label><br>
             <input type="radio" name="animation" id="barking">
-            <label for="barking">Barking</label><br>
+            <label for="barking">Sideways</label><br>
             <input type="radio" name="animation" id="walking">
-            <label for="walking">Walking</label><br>
+            <label for="walking">Forwards</label><br>
         </div>
     </div>
 </body>
