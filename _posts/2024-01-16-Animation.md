@@ -47,7 +47,7 @@
             const canvas = document.getElementById('spriteContainer');
             const ctx = canvas.getContext('2d');
             const SPRITE_WIDTH = 62;  // matches sprite pixel width
-            const SPRITE_HEIGHT = 97; // matches sprite pixel height
+            const SPRITE_HEIGHT = 90; // matches sprite pixel height
             const FRAME_LIMIT = 2;  // matches number of frames per sprite row, this code assumes each row is the same
 
             const SCALE_FACTOR = 5;  // control size of sprite on canvas
