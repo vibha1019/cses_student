@@ -36,6 +36,8 @@
                 this.maxFrame = FRAME_LIMIT;
                 this.frameX = 0;
                 this.frameY = 0;
+                this.lastRender = 0;  // To control frame rate
+                this.frameInterval = 1000 / 5;  // Adjust this value for the desired frames per second
             }
 
             // draw dog object
@@ -55,15 +57,22 @@
 
             // update frameX and frameY of object
             update() {
-                if (this.frameX < this.maxFrame) {
-                    this.frameX++;
-                } else {
-                    this.frameX = 0;
-                    // Reset frameY to 0 when frameX reaches maxFrame
-                    if (this.frameY < 2) {  // Assuming 3 actions (0-indexed)
-                        this.frameY++;
+                const now = performance.now();  // Get current time
+                const elapsed = now - this.lastRender;
+
+                if (elapsed > this.frameInterval) {
+                    this.lastRender = now;
+
+                    if (this.frameX < this.maxFrame) {
+                        this.frameX++;
                     } else {
-                        this.frameY = 0;
+                        this.frameX = 0;
+                        // Reset frameY to 0 when frameX reaches maxFrame
+                        if (this.frameY < 2) {  // Assuming 3 actions (0-indexed)
+                            this.frameY++;
+                        } else {
+                            this.frameY = 0;
+                        }
                     }
                 }
             }
