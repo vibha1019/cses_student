@@ -30,7 +30,7 @@
         class Dog {
             constructor() {
                 this.image = document.getElementById("dogSprite");
-                this.x = 40;
+                this.x = 70;
                 this.y = 10;
                 this.minFrame = 0;
                 this.maxFrame = FRAME_LIMIT;
