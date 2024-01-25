@@ -20,7 +20,7 @@
         const canvas = document.getElementById('spriteContainer');
         const ctx = canvas.getContext('2d');
         const SPRITE_WIDTH = 62;  // matches sprite pixel width
-        const SPRITE_HEIGHT = 96; // matches sprite pixel height
+        const SPRITE_HEIGHT = 97; // matches sprite pixel height
         const FRAME_LIMIT = 2;  // matches number of frames per sprite row, this code assumes each row is the same
 
         const SCALE_FACTOR = 2;  // control size of sprite on canvas
@@ -63,31 +63,6 @@
                 }
             }
         }
-
-
-            // update frameX and frameY of object
-        //     update() {
-        //         const now = performance.now();  // Get current time
-        //         const elapsed = now - this.lastRender;
-
-        //         if (elapsed > this.frameInterval) {
-        //             this.lastRender = now;
-
-        //             if (this.frameX < this.maxFrame) {
-        //                 this.frameX++;
-        //             } else {
-        //                 this.frameX = 0;
-        //                 // Reset frameY to 0 when frameX reaches maxFrame
-        //                 if (this.frameY < 2) {  // Assuming 3 actions (0-indexed)
-        //                     this.frameY++;
-        //                 } else {
-        //                     this.frameY = 0;
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
-
         // dog object
         const dog = new Dog();
 
@@ -127,7 +102,7 @@
             setTimeout(function () {
         // Use `requestAnimationFrame` to continue the animation loop
         requestAnimationFrame(animate);
-    }, 500 / 10); // Adjust the divisor to set the desired frames per second
+    }, 500 / 1); // Adjust the divisor to set the desired frames per second
 }
 
 // run 1st animate
