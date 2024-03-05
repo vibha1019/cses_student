@@ -5,7 +5,7 @@
   frames: 15
 - RestL:
   row: 1
-  col: 15  # Adjusted column value for left-facing Rest animation
+  col: 0
   frames: 15
 - Walk:
   row: 2
@@ -17,11 +17,11 @@
   frames: 3
 - WalkL:
   row: 3
-  col: 15  # Adjusted column value for left-facing Walk animation
+  col: 0
   frames: 8
 - TadaL:
   row: 3
-  col: 26  # Adjusted column value for left-facing Tada animation
+  col: 11
   frames: 3
 - Run1:
   row: 4
@@ -29,7 +29,7 @@
   frames: 15
 - Run1L:
   row: 5
-  col: 15  # Adjusted column value for left-facing Run1 animation
+  col: 0
   frames: 15
 - Run2:
   row: 6
@@ -37,7 +37,7 @@
   frames: 15
 - Run2L:
   row: 7
-  col: 15  # Adjusted column value for left-facing Run2 animation
+  col: 0
   frames: 15
 - Puff:
   row: 8
@@ -45,7 +45,7 @@
   frames: 15
 - PuffL:
   row: 9
-  col: 15  # Adjusted column value for left-facing Puff animation
+  col: 0
   frames: 15
 - Cheer:
   row: 10
@@ -53,7 +53,7 @@
   frames: 15
 - CheerL:
   row: 11
-  col: 15  # Adjusted column value for left-facing Cheer animation
+  col: 0
   frames: 15
 - Flip:
   row: 12
@@ -61,5 +61,5 @@
   frames: 15
 - FlipL:
   row: 13
-  col: 15  # Adjusted column value for left-facing Flip animation
+  col: 0
   frames: 15
