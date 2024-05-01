@@ -31,5 +31,5 @@ case "jumpPlatform":
         this.y -= 4;
     }
     break;
-```
 </div>
+```
