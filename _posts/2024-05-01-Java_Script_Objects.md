@@ -6,7 +6,7 @@
 
 <h3 style="font-family: Arial, sans-serif; color: #333; margin-bottom: 10px;">Creating a Property</h3>
 
-<p style="font-family: Arial, sans-serif; color: #333;">We created a property called onTopofPlatform, so we could correctly assign if it can go left and right. </p>
+<p style="font-family: Arial, sans-serif; color: #333;">Properties are the values associated with a JavaScript objects, so we created one to solve the issue we had. We created a property called onTopofPlatform, so we could correctly assign if it can go left and right. </p>
 
 </div>
 <div style="background-color: #c8e6c9; padding: 15px; border-radius: 8px; margin-top: 20px;">
