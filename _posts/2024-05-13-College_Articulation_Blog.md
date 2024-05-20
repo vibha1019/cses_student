@@ -94,6 +94,29 @@
     Overall, JavaScript objects in the quidditchGameObjects are used to define the components of the Quidditch game level, which are then instantiated within a GameLevel instance for use within the game environment.
 </p>
 
+</div>
+    <h3 style="font-family: 'Helvetica', sans-serif; color: #333; margin-bottom: 10px;">Game Level Code</h3>
+    <div style="background-color: #c8e6c9; padding: 15px; border-radius: 8px; margin-top: 20px;">
+        <pre>
+            <code>
+                // Load GameLevel objects
+                    if (GameEnv.currentLevel !== newLevel) {
+                        GameEnv.claimedCoinIds = [];
+                    }
+                    await newLevel.load();
+                    GameEnv.currentLevel = newLevel;
+            </code>
+        </pre>
+    
+    <div style="background-color: #c8e6c9; padding: 15px; border-radius: 8px; margin-top: 20px;">
+        <h3 style="font-family: 'Helvetica', sans-serif; color: #333; margin-bottom: 10px;">Where Game Level is Used in Game Control</h3>
+        <p style="font-family: 'Helvetica', sans-serif; color: #333;">
+            The newLevel.load() method is called to load the game objects associated with the new level. This method is defined within the GameLevel class and is used to initialize and load game elements such as background, platforms, enemies, etc. Then, the GamEnv.currentLevel is also updated. 
+
+            After loading the new level, various things happen, such as updating certain properties, setting the invert property, and  a resize event to redraw canvas elements.
+        </p>
+   
+</div>
 
 
 </div>
@@ -183,6 +206,37 @@
 
                     this.inTransition = false;
                 },
+
+                gameLoop() {
+                    // Turn game loop off during transitions
+                    if (!this.inTransition) {
+
+                        // Get current level
+                        GameEnv.update();
+                        const currentLevel = GameEnv.currentLevel;
+
+                        // currentLevel is defined
+                        if (currentLevel) {
+                            // run the isComplete callback function
+                            if (currentLevel.isComplete && currentLevel.isComplete()) {
+                                const currentIndex = GameEnv.levels.indexOf(currentLevel);
+                                // next index is in bounds
+                                if (currentIndex !== -1 && currentIndex + 1 < GameEnv.levels.length) {
+                                    // transition to the next level
+                                    this.transitionToLevel(GameEnv.levels[currentIndex + 1]);
+                                } 
+                            }
+                        // currentLevel is null, (ie start or restart game)
+                        } else {
+                            // transition to beginning of game
+                            this.transitionToLevel(GameEnv.levels[0]);
+                        }
+                    }
+
+                    // recycle gameLoop, aka recursion
+                    requestAnimationFrame(this.gameLoop.bind(this));  
+                }
+
             </code>
         </pre>
     
@@ -191,11 +245,17 @@
         <p style="font-family: 'Helvetica', sans-serif; color: #333;">
             Here, the transitionToLevel method is responsible for transitioning to a new level within the game. Within this method, the newLevel parameter represents the new level to transition to. The newLevel object is an instance of GameLevel.
 
-            The newLevel.load() method is called to load the game objects associated with the new level. This method is defined within the GameLevel class and is used to initialize or load game elements such as background, platforms, enemies, etc.
+            To check if the current level is complete, 
+            The gameLoop method continuously runs, updating the game state and checking the completion status of the current level.
+            If the currentLevel exists (if (currentLevel)), the code checks if the isComplete method  of currentLevel returns true.
+            The isComplete method is part of the GameLevel class and returns true when the leve is complete. 
 
-            After loading the new level, various things happen, such as updating certain properties, setting the invert property, and  a resize event to redraw canvas elements.
+            To transition to new level
+            If the isComplete method returns true, the current level is considered complete.
+            The gameLoop method then finds the index of the currentLevel in the GameEnv.levels array.
+            If the index is valid and the next level exists in the array (if (currentIndex !== -1 && currentIndex + 1 < GameEnv.levels.length)), it calls the transitionToLevel method to load the next level.
+            If the current level is null (meaning the game is starting or restarting), it transitions to the first level in the GameEnv.levels array.
 
-            So, the GameLevel is utilized within the GameControl module to manage the transition between different levels of the game.
-        </p>
+=        </p>
     </div>
 </div>
