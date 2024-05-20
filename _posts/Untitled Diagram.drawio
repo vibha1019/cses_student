@@ -1,54 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T05:24:47.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="L_iSUJWp-YHdC6GbVOWp" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T15:48:54.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IRoXZ-yNZNQKTMESzbP6" version="24.4.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1877" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6EF6GnRSIRil4PdyylUV-1" value="Attributes:&amp;nbsp;&lt;div&gt;id, name, xPercentage, yPercentage&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-1" value="Attributes:&amp;nbsp;&lt;div&gt;id, name, xPercentage, yPercentage&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="-452" y="60" width="142" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-2" value="Game Object" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-2" value="Game Object" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-450" y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.015;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6EF6GnRSIRil4PdyylUV-1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.015;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6EF6GnRSIRil4PdyylUV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-450" y="190" as="sourcePoint" />
             <mxPoint x="-510" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-4" value="- Harry&amp;nbsp;&lt;div&gt;- updateJump()&lt;/div&gt;&lt;div&gt;- handlePlayerReaction()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-4" value="- Harry&amp;nbsp;&lt;div&gt;- updateJump()&lt;/div&gt;&lt;div&gt;- handlePlayerReaction()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="-590" y="250" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-5" value="Player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-5" value="Player" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-590" y="250" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-380" y="202" as="sourcePoint" />
             <mxPoint x="-380" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-8" value="- Draco, Dementor&lt;div&gt;- update()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-8" value="- Draco, Dementor&lt;div&gt;- update()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="-440" y="250" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-10" value="Enemy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-10" value="Enemy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-440" y="250" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.024;exitY=0.897;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6EF6GnRSIRil4PdyylUV-1" target="6EF6GnRSIRil4PdyylUV-12">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.024;exitY=0.897;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6EF6GnRSIRil4PdyylUV-1" target="6EF6GnRSIRil4PdyylUV-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-330" y="190" as="sourcePoint" />
             <mxPoint x="-280" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6EF6GnRSIRil4PdyylUV-11">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-13" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6EF6GnRSIRil4PdyylUV-11" vertex="1" connectable="0">
           <mxGeometry x="0.2036" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-12" value="- update()&lt;div&gt;- collisionAction()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-12" value="- update()&lt;div&gt;- collisionAction()&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="-280" y="250" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6EF6GnRSIRil4PdyylUV-14" value="Magic Beam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6EF6GnRSIRil4PdyylUV-14" value="Magic Beam" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="250" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
