@@ -244,18 +244,15 @@
         <h3 style="font-family: 'Helvetica', sans-serif; color: #333; margin-bottom: 10px;">How Transition Level is Determined</h3>
         <p style="font-family: 'Helvetica', sans-serif; color: #333;">
             Here, the transitionToLevel method is responsible for transitioning to a new level within the game. Within this method, the newLevel parameter represents the new level to transition to. The newLevel object is an instance of GameLevel.
-
-            To check if the current level is complete, 
-            The gameLoop method continuously runs, updating the game state and checking the completion status of the current level.
-            If the currentLevel exists (if (currentLevel)), the code checks if the isComplete method  of currentLevel returns true.
-            The isComplete method is part of the GameLevel class and returns true when the leve is complete. 
-
-            To transition to new level
-            If the isComplete method returns true, the current level is considered complete.
-            The gameLoop method then finds the index of the currentLevel in the GameEnv.levels array.
-            If the index is valid and the next level exists in the array (if (currentIndex !== -1 && currentIndex + 1 < GameEnv.levels.length)), it calls the transitionToLevel method to load the next level.
-            If the current level is null (meaning the game is starting or restarting), it transitions to the first level in the GameEnv.levels array.
-
-=        </p>
+        </p>
+        
+        <p style="font-family: 'Helvetica', sans-serif; color: #333;">
+            To check if the current level is complete, the gameLoop method continuously runs, updating the game state and checking the completion status of the current level. If the currentLevel exists (if (currentLevel)), the code checks if the isComplete method of currentLevel returns true. The isComplete method is part of the GameLevel class and returns true when the level is complete.
+        </p>
+        
+        <p style="font-family: 'Helvetica', sans-serif; color: #333;">
+            To transition to a new level, if the isComplete method returns true, the current level is considered complete. The gameLoop method then finds the index of the currentLevel in the GameEnv.levels array. If the index is valid and the next level exists in the array (if (currentIndex !== -1 && currentIndex + 1 < GameEnv.levels.length)), it calls the transitionToLevel method to load the next level. If the current level is null (meaning the game is starting or restarting), it transitions to the first level in the GameEnv.levels array.
+        </p>
     </div>
+
 </div>
