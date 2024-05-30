@@ -172,7 +172,7 @@
 <div style="background-color: #c8e6c9; padding: 15px; border-radius: 8px; margin-top: 20px;">
     <h3 style="font-family: 'Helvetica', sans-serif; color: #333; margin-bottom: 10px;">Examine Game Objects in Inspect</h3>
     <div style="background-color: #e6e6fa; padding: 20px; border-radius: 10px;">
-        <img src="images/canvas_inspect.png" alt="Canvas Inspect" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        <img src="https://raw.githubusercontent.com/vibha1019/cses_student/main/images/canvas_inspect.png" alt="Canvas Inspect" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
 
 
