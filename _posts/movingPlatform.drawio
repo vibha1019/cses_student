@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T21:04:55.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bk_DPfV20402NccrvBB7" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T21:06:02.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="EWln69OUwz7fRqv6PoHf" version="24.4.10" type="github">
   <diagram name="Page-1" id="6AAVoNeCskJnjs98s6QO">
-    <mxGraphModel dx="1313" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,15 +49,11 @@
         <mxCell id="xpAPMFgMmmdXlnO4XEXv-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PlatformMoving.js&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="200" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xpAPMFgMmmdXlnO4XEXv-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="410" as="sourcePoint" />
-            <mxPoint x="300" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xpAPMFgMmmdXlnO4XEXv-31" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="610" y="450" width="250" height="90" as="geometry" />
-        </mxCell>
+        <UserObject label="movePlatform() {&#xa;        let currentPosition = parseInt(this.canvas.style.top) || 0;&#xa;&#xa;&#xa;        // Only move up&#xa;        if (currentPosition &lt;= this.maxTop) { // Changed condition to check if it&#39;s below maxTop&#xa;            this.direction = 1; // Change direction to move down&#xa;        } else if (currentPosition &gt;= (GameEnv.bottom - this.canvas.height)) { // Ensure it stays within the bottom of the game environment&#xa;            this.direction = -1;&#xa;        }&#xa;&#xa;&#xa;        this.canvas.style.top = currentPosition + this.direction * this.speed + &#39;px&#39;;&#xa;        this.draw();&#xa;    }" link="movePlatform() {&#xa;        let currentPosition = parseInt(this.canvas.style.top) || 0;&#xa;&#xa;&#xa;        // Only move up&#xa;        if (currentPosition &lt;= this.maxTop) { // Changed condition to check if it&#39;s below maxTop&#xa;            this.direction = 1; // Change direction to move down&#xa;        } else if (currentPosition &gt;= (GameEnv.bottom - this.canvas.height)) { // Ensure it stays within the bottom of the game environment&#xa;            this.direction = -1;&#xa;        }&#xa;&#xa;&#xa;        this.canvas.style.top = currentPosition + this.direction * this.speed + &#39;px&#39;;&#xa;        this.draw();&#xa;    }" id="xpAPMFgMmmdXlnO4XEXv-31">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+            <mxGeometry x="70" y="450" width="790" height="240" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="xpAPMFgMmmdXlnO4XEXv-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PlatformMoving.js&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="410" width="220" height="40" as="geometry" />
         </mxCell>
