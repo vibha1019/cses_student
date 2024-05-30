@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T20:32:09.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.10" etag="4BFEKgAej1-kAe7RkxO0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T21:04:55.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bk_DPfV20402NccrvBB7" version="24.4.10" type="github">
   <diagram name="Page-1" id="6AAVoNeCskJnjs98s6QO">
-    <mxGraphModel>
+    <mxGraphModel dx="1313" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <UserObject label="GameObject.js&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; { name: &#39;magicBeam&#39;, id: &#39;magicBeam&#39;, class: MagicBeam, data: assets.enemies.magicBeam, xPercentage: 0.623, yPercentage: 0.72 },&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;GameObject.js&lt;/span&gt;&#xa;&#xa;" id="xpAPMFgMmmdXlnO4XEXv-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+            <mxGeometry x="40" y="20" width="740" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="80" as="sourcePoint" />
+            <mxPoint x="340" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="490" as="sourcePoint" />
+            <mxPoint x="330" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="175" width="470" height="250" as="geometry" />
+        </mxCell>
+        <UserObject label="    // Player action on collisions&#xa;    collisionAction() {&#xa;        if (this.collisionData.touchPoints.other.id === &quot;player&quot;) {&#xa;            if (this.collisionData.touchPoints.other.bottom &amp;&amp; this.immune === 0) {&#xa;                GameEnv.invincible = true;&#xa;                GameEnv.goombaBounce1 = true;&#xa;                this.explode()&#xa;&#xa;            &#xa;                setTimeout(() =&gt; {&#xa;                    GameEnv.invincible = false;&#xa;                    this.destroy();&#xa;                    GameEnv.destroyedMagicBeam = true;&#xa;                }, 500);&#xa;            }&#xa;        }" link="update() {&#xa;        super.update();&#xa;&#xa;&#xa;        // Check for boundaries&#xa;        if (this.x &lt;= this.minPosition || (this.x + this.canvasWidth &gt;= this.maxPosition)) {&#xa;            this.speed = -this.speed;&#xa;        }&#xa;        this.playerBottomCollision = false;&#xa;&#xa;&#xa;        this.y = GameEnv.bottom * this.yPercentage;&#xa;        this.canvas.style.top = `${this.y}px`;&#xa;    }" id="xpAPMFgMmmdXlnO4XEXv-14">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="60" y="180" width="430" height="240" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MagicBeam.js&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="290" as="sourcePoint" />
+            <mxPoint x="590" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xpAPMFgMmmdXlnO4XEXv-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-25" value="// Required, but no update action&#xa;    update() {&#xa;        if (GameEnv.destroyedMagicBeam === true) {     &#xa;            this.movePlatform();&#xa;        }&#xa;    }" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="250" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PlatformMoving.js&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-31" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xpAPMFgMmmdXlnO4XEXv-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;PlatformMoving.js&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
